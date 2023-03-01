@@ -1,16 +1,16 @@
 def main():
+    ptint()
     name = input("Enter your name: ")
     print(f'name = {name}')
-    k=1    
-    w= 9  
-    x= 4
+    k= 1, w= 9, x= 4
     y= 8
-    z= 77
+    z= k+w+x
     s =3
     d= 5
-    tt = z -x + y -s - d
-    v=44
-    print(tt +v)
+    t = z -x + y -s - d
+    v=y+z+s
+    print(t +v)
+    print()
 
 if __name__=='__main__':
     main()
